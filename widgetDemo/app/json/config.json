@@ -1,0 +1,235 @@
+[
+	{
+		"id" : "greyPanel",
+		"toolName": "Rectangular",
+		"color" :"#FFF",
+		"width" : "1903px",
+		"height" : "900px",
+		"relativePosition" : {
+			"x": "0",
+			"y": "0"
+		},
+		"widgetList" : [
+			{
+					"id" : "title",
+					"toolName": "",
+					"text": "Example Widgets",
+					"color" :"#FFF",
+					"width" : "",
+					"height" : "",
+					"widgetList" : "",
+					"relativePosition" : {
+						"x": "720px",
+						"y": "25px"
+					}
+					
+			},
+			{
+				"id" : "cardPanel",
+				"toolName": "Rectangular",
+				"color" : "#FFF",
+				"width" : "600px",
+				"height" : "500px",
+				"relativePosition" : {
+					"x": "660px",
+					"y": "0"
+				},
+				"widgetList" : [
+					{
+							"id" : "title",
+							"toolName": "",
+							"text": "Camera Widget (id: 2)",
+							"color" :"#FFF",
+							"width" : "",
+							"height" : "",
+							"widgetList" : "",
+							"relativePosition" : {
+								"x": "720px",
+								"y": "25px"
+							}
+							
+					},
+					{
+							"id" : "cameraWidgetView",
+							"toolName": "",
+							"color" :"#FFF",
+							"width" : "",
+							"height" : "",
+							"relativePosition" : {
+								"x": "720px",
+								"y": "25px"
+							},
+							"widgetList" : 
+							[
+								{
+									"id" : "textArea",
+									"toolName": "Text Area",
+									"model": "cameraName",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textArea",
+									"toolName": "Text Area",
+									"model": "cameraModel",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textArea",
+									"toolName": "Text Area",
+									"model": "url",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textArea",
+									"toolName": "Text Area",
+									"model": "toolName",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								}
+							]
+							
+					}				
+				]
+			},
+			{
+				"id" : "cardPanel",
+				"toolName": "Rectangular",
+				"color" : "#FFF",
+				"width" : "600px",
+				"height" : "500px",
+				"relativePosition" : {
+					"x": "660px",
+					"y": "0"
+				},
+				"widgetList" : [
+					{
+							"id" : "title",
+							"toolName": "",
+							"text": "Edit Camera Widget",
+							"color" :"#FFF",
+							"width" : "",
+							"height" : "",
+							"widgetList" : "",
+							"relativePosition" : {
+								"x": "720px",
+								"y": "25px"
+							}
+							
+					},
+					{
+							"id" : "cameraEditFormWidget",
+							"toolName": "Rectangular",
+							"color" :"#127BC0",
+							"width" : "112px",
+							"height" : "41px",
+							"relativePosition" : {
+								"x": "0",
+								"y": "0"
+							},
+							"widgetList" : 
+							[
+								{
+									"id" : "textInput",
+									"toolName": "Text Area",
+									"placeholder": "Enter your text here",
+									"model": "cameraName",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textInput",
+									"toolName": "Text Area",
+									"placeholder": "Enter your text here",
+									"model": "cameraModel",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textInput",
+									"toolName": "Text Area",
+									"placeholder": "Enter your text here",
+									"model": "url",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "textInput",
+									"toolName": "Text Area",
+									"placeholder": "Enter your text here",
+									"model": "toolName",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								},
+								{
+									"id" : "submitButton",
+									"toolName": "Save",
+									"color" :"#FFF",
+									"width" : "",
+									"height" : "",
+									"widgetList" : "",
+									"relativePosition" : {
+										"x": "720px",
+										"y": "25px"
+									}
+								}	
+							]
+							
+					}
+				
+				]
+			}
+		]
+	}
+	
+]

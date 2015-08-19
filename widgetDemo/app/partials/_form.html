@@ -1,0 +1,42 @@
+<div class="form-group">
+  <label for="cameraName" class="col-sm-2 control-label">Name</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="camera.cameraName" class="form-control" id="cameraName" placeholder="Camera name here"/>
+  </div>
+</div>
+<div class="form-group">
+  <label for="cameraModel" class="col-sm-2 control-label">Model</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="camera.cameraModel" class="form-control" id="cameraModel" placeholder="Model here"/>
+  </div>
+</div>
+<div class="form-group">
+  <label for="toolName" class="col-sm-2 control-label">Tool Name</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="camera.toolName" class="form-control" id="toolName" placeholder="Tool name here"/>
+  </div>
+</div>
+<div class="form-group">
+  <label for="url" class="col-sm-2 control-label">URL</label>
+  <div class="col-sm-10">
+    <input type="text" ng-model="camera.url" class="form-control" id="url" placeholder="Url here"/>
+  </div>
+</div>
+<h2>Properties</h2>
+<div class="properties-form-group ">
+
+	<div class="form-group form-inline" ng-repeat="property in camera.properties">
+	    <label for="name" class="col-sm-2 control-label">Name</label>
+	  	<input type="text" ng-model="property.name" class="col-sm-1 form-control" id="name" placeholder="Enter a property name"/>
+	  	<label for="value" class="col-sm-2 control-label">Value</label>
+	  	<input type="text" ng-model="property.value" class="col-sm-2 form-control" id="value" placeholder="Enter a property value"/>
+	  	<a class="col-sm-1 remove-icon" ng-click="removeProperty(property)"><span class="glyphicon glyphicon-minus-sign"></span></a>
+	</div>
+		<a class="btn btn-link add-property" ng-click="addNewProperty()"><span class="glyphicon glyphicon-plus-sign"></span>Add another property</a>
+</div>
+
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <input type="submit" class="btn btn-primary" value="Save"/>
+  </div>  	
+</div>

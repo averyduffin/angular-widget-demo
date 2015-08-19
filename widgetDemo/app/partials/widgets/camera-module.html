@@ -1,0 +1,24 @@
+<div class="list-space">
+<div class="camera-list row">
+<div class="camera-box">
+<h2>Widget - Calls servlet</h2>
+<span class="camera-title">{{camera.cameraName}}</span>
+				<div class="main-properties">
+					<div class="row">
+					<span class="col-2">Model:</span><span class="col-4">{{camera.cameraModel}}</span>
+					</div>
+					<div class="row">
+					<div class="col-2">Tool Name:</div><div class="col-4">{{camera.toolName}}</div>
+					</div>
+					<div class="row">
+					<div class="col-2">URL:</div><div class="col-4">{{camera.url}}</div>
+					</div>
+				</div>
+				<span class="properties-title">Properties</span>
+					<div class="row" ng-repeat="property in camera.properties">
+					<div class="col-2">{{property.name}}</div><div class="col-4">{{property.value}}</div>
+					</div>
+					</div>
+</div>
+</div>
+</div>

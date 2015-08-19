@@ -1,0 +1,5 @@
+<div ng-switch on="msgType" id="messages">
+
+  <div ng-switch-when="1" id="errorMessageDiv" class="alert alert-error">{{msg}}</div>
+  <div ng-switch-when="0" id="successMessageDiv" class="alert alert-success">{{msg}}</div>
+</div>
